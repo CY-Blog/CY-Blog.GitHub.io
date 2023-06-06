@@ -1,0 +1,56 @@
+- const { darkmode } = theme
+nav#nav
+  span#blog_name
+    .back-home-button(tabindex='-1')
+      i.back-home-button-icon.fas.fa-grip-vertical
+      .back-menu-list-groups
+        .back-menu-list-group
+          .back-menu-list-title 网页
+          .back-menu-list
+            a.back-menu-item(href='https://www.ffing.cn', title='前往首页', target='_blank', one-link-mark='yes')
+              img.back-menu-item-icon(src='https://src.ffing.cn/hexo/img/fn_white_logo.png')
+              span.back-menu-item-text 首页
+            a.back-menu-item(href='http://pan.ffing.cn/', rel='external nofollow', title='前往alist网盘', target='_blank', one-link-mark='yes')
+              img.back-menu-item-icon(src='https://src.ffing.cn/hexo/img/alist_logo.png')
+              span.back-menu-item-text alist网盘
+            a.back-menu-item(href='https://kms.ffing.cn/', rel='external nofollow', title='前往kms服务', target='_blank', one-link-mark='yes')
+              img.back-menu-item-icon(src='https://src.ffing.cn/hexo/img/kms_logo.png')
+              span.back-menu-item-text kms服务
+        .back-menu-list-group
+          .back-menu-list-title 在线工具
+          .back-menu-list
+            a.back-menu-item(href='https://www.iconfont.cn', rel='noopener nofollow', title='前往阿里icon', target='_blank', one-link-mark='yes')
+              img.back-menu-item-icon(src='https://src.ffing.cn/hexo/img/ali-icon_logo.png')
+              span.back-menu-item-text 阿里icon
+
+    a#site-name(href=url_for('/'))
+      .title #[=config.title]
+      i.fa-solid.fa-house
+
+  div.mask-name-container
+    center(id="name-container")
+      a(id="page-name" href="javascript:btf.scrollToDest(0, 500)") PAGE_NAME
+  #weather
+  <div id="tp-weather-widget"></div> 
+  #menus
+    if (theme.algolia_search.enable || theme.local_search.enable)
+      div.nav-button#search-button
+        a.site-page.social-icon.search
+          i.fas.fa-search.fa-fw
+          span=' '+_p('search.title')
+
+    if darkmode.enable && darkmode.button
+      div.nav-button#darkmode_navswitch
+        a.darkmode_switchbutton(type="button" title=_p('rightside.night_mode_title') onclick="switchDarkMode()")
+          i.fas.fa-adjust
+    div.nav-button#nav-totop
+      a.totopbtn
+        i.fas.fa-arrow-up
+        span#percent(onclick="btf.scrollToDest(0,500)") 0
+
+
+    !=partial('includes/header/menu_item', {}, {cache: true})
+
+    #toggle-menu
+      a.site-page
+        i.fas.fa-bars.fa-fw
