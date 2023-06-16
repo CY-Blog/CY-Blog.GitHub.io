@@ -120,7 +120,7 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repository: https://github.com/CY-Blog/CY-Blog.GitHub.io.git
+  repository: git@github.com:CY-Blog/CY-Blog.GitHub.io.git
   branch: master
 wordcount:
   enable: true
