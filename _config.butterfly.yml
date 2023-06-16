@@ -16,6 +16,7 @@ menu:
     技术: /categories/技术/ || fas fa-code
     读书: /categories/读书/ || fas fa-book
     日记: /categories/日记/ || fas fa-gift
+    有意思: /categories/有意思/ || fas fa-gift
   清单||fa fa-heartbeat:
     待办: /categories/待办/ || fas fa-star
     备忘: /categories/备忘/ || fas fa-file
@@ -54,9 +55,9 @@ disable_top_img: false
 index_img:
 
 # If the banner of page not setting, it will show the top_img
-default_top_img: http://img.iyuanmas.com/uploads/up/2022/07/e01da3c68a38ead3cf7e51f83dd76e76135.jpg
+default_top_img: https://s1.ax1x.com/2023/06/16/pCQi0rq.jpg
 # The banner image of archive page
-archive_img: https://konachan.net/data/preview/39/6e/396ef645a7ac10531a6353963e65525a.jpg
+archive_img: https://pic.netbian.com/uploads/allimg/230525/000340-168494422071d0.jpg
 
 # If the banner of tag page not setting, it will show the top_img
 # note: tag page, not tags page (子標籤頁面的 top_img)
@@ -65,16 +66,16 @@ tag_img: https://konachan.net/data/preview/39/6e/396ef645a7ac10531a6353963e65525
 # The banner image of tag page
 # format:
 #  - tag name: xxxxx
-tag_per_img: https://konachan.net/data/preview/39/6e/396ef645a7ac10531a6353963e65525a.jpg
+tag_per_img: https://pic2.zhimg.com/80/v2-49a1e489778f4b0acfd82193c0ca829d_720w.webp
 
 # If the banner of category page not setting, it will show the top_img
 # note: category page, not categories page (子分類頁面的 top_img)
-category_img: https://konachan.net/data/preview/39/6e/396ef645a7ac10531a6353963e65525a.jpg
+category_img: https://pic4.zhimg.com/80/v2-de05678a9fbe26334b4d4fc0ab3e2c43_720w.webp
 
 # The banner image of category page
 # format:
 #  - category name: xxxxx
-category_per_img: https://konachan.net/data/preview/39/6e/396ef645a7ac10531a6353963e65525a.jpg
+category_per_img: https://pic4.zhimg.com/80/v2-c72c591cd327a9577ba4c696d4df131f_720w.webp
 
 cover:
   # display the cover or not (是否顯示文章封面)
