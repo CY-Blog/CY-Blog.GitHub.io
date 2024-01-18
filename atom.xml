@@ -315,9 +315,9 @@
     <link href="https://cy-blog.github.io/2023/06/07/%E5%B0%8F%E6%8A%80%E5%B7%A7/"/>
     <id>https://cy-blog.github.io/2023/06/07/%E5%B0%8F%E6%8A%80%E5%B7%A7/</id>
     <published>2023-06-07T13:13:35.000Z</published>
-    <updated>2024-01-18T15:56:39.687Z</updated>
+    <updated>2024-01-18T16:19:43.383Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="两个电脑上传hexo"><a href="#两个电脑上传hexo" class="headerlink" title="两个电脑上传hexo"></a>两个电脑上传hexo</h1><p>上传<br><code>git add . &amp;&amp;git commit -m ChangeFiles &amp;&amp; git push </code></p><p>下载</p><p><code>git pull</code></p><h2 id="github能ping通但是不能push"><a href="#github能ping通但是不能push" class="headerlink" title="github能ping通但是不能push"></a>github能ping通但是不能push</h2><p><a href="https://blog.csdn.net/tom_wong666/article/details/128961438">解决</a><br>可以加上<br><code>git config --global http.proxy http://127.0.0.1:7890&amp;&amp;git config --global https.proxy https://127.0.0.1:7890</code><br>数字为你用梯子的端口<br><code>git config --global http.postBuffer 524288000</code></p><p>上传太大用这个</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="两个电脑上传hexo"><a href="#两个电脑上传hexo" class="headerlink" title="两个电脑上传hexo"></a>两个电脑上传hexo</h1><p>上传<br><code>git add . &amp;&amp;git commit -m ChangeFiles &amp;&amp; git push </code></p><p>下载</p><p><code>git pull</code></p><h2 id="github能ping通但是不能push"><a href="#github能ping通但是不能push" class="headerlink" title="github能ping通但是不能push"></a>github能ping通但是不能push</h2><p><a href="https://blog.csdn.net/tom_wong666/article/details/128961438">解决</a><br>可以加上<br><code>git config --global http.proxy http://127.0.0.1:7890&amp;&amp;git config --global https.proxy https://127.0.0.1:7890</code><br>数字为你用梯子的端口<br><code>git config --global http.postBuffer 524288000</code></p><p>上传太大用这个<br>显示端口22错误时<br><a href="https://blog.csdn.net/weixin_45637036/article/details/106560217">22</a></p>]]></content>
     
     
       
